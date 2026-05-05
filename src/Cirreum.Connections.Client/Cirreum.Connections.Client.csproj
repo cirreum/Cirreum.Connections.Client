@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>Cirreum.Connections.Client</AssemblyName>
+		<RootNamespace>Cirreum.Connections.Client</RootNamespace>
+		<Description>Client-side abstractions for long-lived Cirreum connections. Defines IRealtimeClient and RealtimeClientBase with connection lifecycle management, automatic reconnection, and state tracking. Transport-agnostic; concrete implementations live in runtime extension packages.</Description>
+		<PackageTags>cirreum;connections;realtime;client;websocket;signalr;abstractions</PackageTags>
+	</PropertyGroup>
+
+</Project>
