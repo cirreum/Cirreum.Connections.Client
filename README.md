@@ -1,3 +1,18 @@
+> [!WARNING]
+> **This package is deprecated and this repository is archived.**
+>
+> The runtime extension packages named below — `Cirreum.Runtime.Connections.SignalR.Wasm`, `Cirreum.Runtime.Connections.WebSockets.Wasm`, and `Cirreum.Runtime.Connections.Wasm` — **were never published and do not exist.**
+>
+> The caller side of a long-lived Cirreum connection ships today as `Cirreum.RemoteConnections.SignalR`
+> and `Cirreum.RemoteConnections.WebSockets`, registered through
+> `Cirreum.Runtime.RemoteConnections.SignalR` / `Cirreum.Runtime.RemoteConnections.WebSockets`. The
+> server side ships in `Cirreum.Services.Server`.
+>
+> Everything below this line is retained as a historical record and does not describe a supported
+> package.
+
+---
+
 # Cirreum.Connections.Client
 
 [![NuGet Version](https://img.shields.io/nuget/v/Cirreum.Connections.Client.svg?style=flat-square&labelColor=1F1F1F&color=003D8F)](https://www.nuget.org/packages/Cirreum.Connections.Client/)
